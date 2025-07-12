@@ -19,7 +19,7 @@
                                 title: "My CV",
                                 description: "See my latest projects and case studies.",
                                 icon: "fas fa-briefcase",
-                                url: "https://cv-nmhruby.glitch.me/"
+                                url: "https://hungthichcode.github.io/cv"
                             }, // End New Link
                             { //Start New Link
                                 title: "GitHub",
@@ -47,25 +47,25 @@
                                 title: "CSS Minifier",
                                 description: "Beautify CSS to code faster",
                                 icon: "fa-solid fa-code",
-                                url: "https://cssminifier.glitch.me"
+                                url: "https://hungthichcode.github.io/css"
                             }, // End New Link
                             { //Start New Link
                                 title: "Office Tools",
                                 description: "Help office work quickly",
                                 icon: "fa-solid fa-chair-office",
-                                url: "https://nmhruby-officetool.glitch.me"
+                                url: "https://hungthichcode.github.io/officetools"
                             }, // End New Link
                             { //Start New Link
                                 title: "Remove Background",
                                 description: "Used API Key of remove.bg",
                                 icon: "fa-regular fa-eraser",
-                                url: "https://remove-background-nmhruby.glitch.me"
+                                url: "https://hungthichcode.github.io/rembg"
                             }, // End New Link
                             { //Start New Link
                                 title: "Photoshop Brushes Generator",
                                 description: "Create brushes faster, no manual work, automatic, fast",
                                 icon: "fa-solid fa-paintbrush-fine",
-                                url: "https://nmhruby-photoshop-brush-creator.glitch.me"
+                                url: "https://hungthichcode.github.io/brushpts"
                             }, // End New Link
                         ]
                     }, // End New Group

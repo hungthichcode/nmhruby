@@ -1,0 +1,154 @@
+        /* --- Custom CSS for Modern Styling --- */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(45deg, #1d2b64, #f8cdda);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .main-container {
+            max-width: 680px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .profile-header {
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .profile-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        .profile-name {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 0;
+            color: white;
+        }
+
+        .verification-tick {
+            color: #1da1f2; /* Twitter blue */
+            font-size: 1.5rem;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+        
+        .profile-id {
+            font-size: 1rem;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: 0.25rem;
+        }
+
+        .profile-description {
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: 1rem;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .links-section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 1.25rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .links-container .link-btn {
+            display: block;
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+            margin-bottom: 1rem;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .links-container .link-btn:hover,
+        .links-container .link-btn:focus {
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        
+        .link-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .link-text-wrapper {
+            flex-grow: 1;
+        }
+
+        .link-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .link-icon {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            width: 30px; /* For alignment */
+            text-align: center;
+        }
+
+        .link-description {
+            font-size: 0.85rem;
+            font-weight: 300;
+            margin: 0;
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.4;
+        }
+        
+        .link-action-icon {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.7);
+            transition: transform 0.3s ease;
+        }
+        
+        .link-btn:hover .link-action-icon {
+            transform: translateX(5px);
+        }
+
+        .page-footer {
+            text-align: center;
+            padding: 20px 15px;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+            margin-top: auto;
+        }
+        .page-footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .page-footer a:hover {
+            text-decoration: underline;
+        }

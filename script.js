@@ -25,7 +25,7 @@
                                 title: "GitHub",
                                 description: "Follow my coding journey and contribute.",
                                 icon: "fab fa-github",
-                                url: "https://github.com/hungthichcode"
+                                url: "https://github.com/hungthichcode/hungdevelopers2kar6"
                             }, // End New Link
                         ]
                     }, // End New Group
